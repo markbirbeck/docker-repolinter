@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+  repolinter-my-org:
+    build:
+      context: .
+      dockerfile: Dockerfile-my-org
+    image: my-org/repolinter
+    volumes:
+      - ../src:/repolinter/repo
