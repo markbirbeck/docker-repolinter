@@ -66,7 +66,12 @@ However, if you have a policy that must be enforced across a number of repos wit
 ```dockerfile
 FROM markbirbeck/repolinter
 
-COPY repolint-my-org.json /repolinter/repolint.json
+LABEL maintainer="someone@somewhere.com"
+LABEL version="0.1.0"
+
+# Copy in custom configuration:
+#
+COPY repolint.json /repolinter/
 ```
 
 You now have a Docker image that will enforce your policy, and that can be shared and used in CI/CD processes.

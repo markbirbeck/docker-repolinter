@@ -1,3 +1,0 @@
-FROM markbirbeck/repolinter
-
-COPY repolint-my-org.json /repolinter/repolint.json
