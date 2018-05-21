@@ -24,7 +24,7 @@ RUN apk add --no-cache \
 
 RUN npm install -g \
   log-symbols \
-  markbirbeck/repolinter#94-fix-exit-code
+  todogroup/repolinter
 
 # Copy in a basic configuration:
 #
