@@ -1,6 +1,6 @@
 # docker-repolinter
 
-A Docker image that runs [Repolinter](https://github.com/todogroup/repolinter/) against a repository.
+A Docker image that runs [RepoLinter](https://github.com/todogroup/repolinter/) against a repository.
 
 The basic linting attempts to be uncontroversial and only includes very basic rules. Details are provided below to build out more specific rulesets for an organisation or collection of projects.
 
