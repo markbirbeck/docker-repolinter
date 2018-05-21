@@ -8,7 +8,6 @@ The basic linting attempts to be uncontroversial and only includes very basic ru
 
 The basic rules are that:
 
-* an `.editorconfig` file must be present in the root directory (see [EditorConfig](http://editorconfig.org/));
 * a license file must be present;
 * a `README` must be present;
 * no binary files should be present, which includes:
