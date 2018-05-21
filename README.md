@@ -74,3 +74,5 @@ COPY repolint.json /repolinter/
 ```
 
 You now have a Docker image that will enforce your policy, and that can be shared and used in CI/CD processes.
+
+See the `examples` directory for files to modify. And see [my repolinter](https://github.com/markbirbeck/my-repolinter) for an example of an image based on this one, but with custom rules.
